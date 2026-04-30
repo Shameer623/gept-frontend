@@ -675,3 +675,30 @@ a {
   gap: 15px 40px;
   font-weight: 500;
 }
+
+/* ========================
+   CLEAN FOOTER
+======================== */
+
+.footer-clean {
+  background: #111827;
+  color: white;
+  padding: 28px 0 22px;
+}
+
+.footer-brand {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-contact {
+  color: #b8c1cc;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-copy {
+  color: #7f8b98;
+  font-size: 13px;
+  margin: 0;
+}

@@ -8,11 +8,11 @@ const company = {
   heroSubtitle:
     "Operation, Maintenance & Upgradation of Wastewater Treatment Plants",
 
-  email: "globalenviropowertech@gmail.com",
+  email: "info.globalenviro@zohomail.in",
 
   phones: [
-    "+91 91503 58727",
-    "+91 82788 37453"
+  "+91 91503 58727",
+  "+91 99650 23250"
   ],
 
   address:

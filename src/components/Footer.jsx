@@ -1,9 +1,25 @@
+import company from "../data/company-temp";
+
 function Footer() {
   return (
-    <footer className="bg-dark text-light text-center p-4 mt-5">
-      <p>GETP Enviro Powertech Pvt Ltd</p>
-      <p>Email: info@getpenviro.com | Phone: +91 91503 58727</p>
-      <p>© 2026 All Rights Reserved</p>
+    <footer className="footer-clean">
+
+      <div className="container text-center">
+
+        <h6 className="footer-brand">
+          {company.shortName}
+        </h6>
+
+        <p className="footer-contact">
+          {company.email} | {company.phones.join(" | ")}
+        </p>
+
+        <p className="footer-copy">
+          © 2026 {company.shortName}. All Rights Reserved.
+        </p>
+
+      </div>
+
     </footer>
   );
 }

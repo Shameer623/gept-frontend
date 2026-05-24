@@ -5,25 +5,43 @@ function WhyChooseUs() {
   useReveal();
 
   const reasons = [
-    {
-      icon: "bi-award-fill",
-      title: "Industry Experience",
-      description:
-        "Strong expertise in water and wastewater treatment solutions with proven domain experience across industrial and municipal projects."
-    },
-    {
-      icon: "bi-lightning-fill",
-      title: "Reliable Execution",
-      description:
-        "Structured project delivery approach ensuring technical precision, regulatory compliance and long-term plant stability."
-    },
-    {
-      icon: "bi-shield-check",
-      title: "Quality & Compliance",
-      description:
-        "Focused on sustainable engineering practices, environmental standards and lifecycle-based performance optimization."
-    }
-  ];
+  {
+    icon: "bi-sliders",
+    title: "Customized Treatment Solutions",
+    description:
+      "Tailor-made wastewater and water treatment systems designed based on industry-specific process requirements and discharge standards."
+  },
+  {
+    icon: "bi-people-fill",
+    title: "Experienced Technical Team",
+    description:
+      "Strong engineering and execution team with hands-on expertise in ETP, STP, RO, ZLD and industrial wastewater technologies."
+  },
+  {
+    icon: "bi-shield-check",
+    title: "Pollution Compliance Support",
+    description:
+      "Complete support for environmental compliance, pollution control norms, documentation and sustainable operational practices."
+  },
+  {
+    icon: "bi-lightning-charge-fill",
+    title: "Energy Efficient Systems",
+    description:
+      "Focused on optimized treatment performance with reduced operational costs and energy-efficient process integration."
+  },
+  {
+    icon: "bi-wrench-adjustable-circle-fill",
+    title: "Quality Installation & Support",
+    description:
+      "Professional installation, commissioning and reliable after-sales support ensuring long-term operational stability."
+  },
+  {
+    icon: "bi-clock-history",
+    title: "On-Time Project Execution",
+    description:
+      "Structured planning and execution methodology ensuring timely delivery with technical precision and project reliability."
+  }
+];
 
   return (
     <section id="why" className="why-section fade-section">
@@ -36,7 +54,7 @@ function WhyChooseUs() {
         <div className="row g-5">
 
           {reasons.map((item, index) => (
-            <div className="col-lg-4" key={index}>
+            <div className="col-lg-4 col-md-6" key={index}>
               <div className="why-feature">
 
                 <div className="why-icon">

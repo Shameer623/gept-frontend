@@ -3,7 +3,7 @@ import dabur from "../assets/clients/dabur.png";
 import carlsberg from "../assets/clients/carlsberg.png";
 import waves from "../assets/clients/waves.png";
 import spectrum from "../assets/clients/spectrum.png";
-import dhanushree from "../assets/clients/dabur.png";
+import dhanushree from "../assets/clients/dhanshree.png";
 
 function Clients() {
 
@@ -14,7 +14,7 @@ function Clients() {
     { name: "Carlsberg India Limited", logo: carlsberg },
     { name: "Waves Breweries India Ltd", logo: waves },
     { name: "Spectrum Electricals Pvt. Ltd", logo: spectrum },
-    { name: "Dhanushree Metals Pvt. Ltd", logo: dhanushree },
+    { name: "Dhanshree Enterprises Pvt. Ltd", logo: dhanushree },
   ];
 
   return (

@@ -8,6 +8,9 @@ import Footer from "../components/Footer";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Expertise from "../components/Expertise";
 import Clients from "../components/Clients";
+import Industries from "../components/Industries";
+
+
 function Home() {
   return (
     <>
@@ -16,6 +19,7 @@ function Home() {
       <About />
       <Expertise />
       <Services />
+      <Industries />
       <WhyChooseUs />
       <Clients />
       <Projects />

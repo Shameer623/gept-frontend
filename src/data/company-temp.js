@@ -8,12 +8,15 @@ const company = {
   heroSubtitle:
     "Operation, Maintenance & Upgradation of Wastewater Treatment Plants",
 
-  email: "info.globalenviro@zohomail.in",
+  emails: [
+  "info.globalenviro@zohomail.in",
+  "info.geptindia@gmail.com"
+],
 
-  phones: [
+phones: [
   "+91 91503 58727",
   "+91 99650 23250"
-  ],
+],
 
   address:
     "No.16/26B, Annai Indra Nagar, Salamedu, Villupuram – 605 401, Tamil Nadu, India",

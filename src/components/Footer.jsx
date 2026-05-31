@@ -11,8 +11,12 @@ function Footer() {
         </h6>
 
         <p className="footer-contact">
-          {company.email} | {company.phones.join(" | ")}
-        </p>
+  {company.emails.join(" | ")}
+</p>
+
+<p className="footer-contact">
+  {company.phones.join(" | ")}
+</p>
 
         <p className="footer-copy">
           © 2026 {company.shortName}. All Rights Reserved.

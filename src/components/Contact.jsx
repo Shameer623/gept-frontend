@@ -108,9 +108,11 @@ function Contact() {
               </p>
 
               <p>
-                <i className="bi bi-envelope-fill text-primary me-2"></i>
-                {company.email}
-              </p>
+  <i className="bi bi-envelope-fill text-primary me-2"></i>
+  {company.emails[0]}
+  <br />
+  {company.emails[1]}
+</p>
 
               <p>
                 <i className="bi bi-telephone-fill text-primary me-2"></i>

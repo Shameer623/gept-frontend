@@ -32,7 +32,7 @@ function Navbar() {
         <a href="#home" className="navbar-brand d-flex align-items-center">
           <img
             src={logo}
-            alt="GETP Enviro"
+            alt="GEPT Enviro"
             style={{
               height: "50px",
               borderRadius: "6px"

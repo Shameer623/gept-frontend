@@ -11,7 +11,7 @@ function Footer() {
         </h6>
 
         <p className="footer-contact">
-  {company.emails.join(" | ")}
+  {company.email}
 </p>
 
 <p className="footer-contact">

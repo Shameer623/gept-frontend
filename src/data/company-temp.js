@@ -8,10 +8,7 @@ const company = {
   heroSubtitle:
     "Operation, Maintenance & Upgradation of Wastewater Treatment Plants",
 
-  emails: [
-  "info.globalenviro@zohomail.in",
-  "info.geptindia@gmail.com"
-],
+  email: "info.geptindia@gmail.com",
 
 phones: [
   "+91 91503 58727",
